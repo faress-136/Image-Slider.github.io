@@ -1,0 +1,37 @@
+.home{
+    background-image: url(../img/photo-1554034483-04fda0d3507b.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 24px;
+}
+
+.overlay{
+    bottom: 10px;
+    width: 80%;
+    left: 10%;
+    background-color: wheat;
+}
+
+.item img{
+    cursor: pointer;
+}
+
+.overlay{
+    cursor: pointer;
+}
+
+.content i{
+    cursor: pointer;
+}
+
+.lightBoxContainer{
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
